@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HOLLOW KNIGHT WEB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Itim&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos/estilo.css">
+<script src="scripts/script.js"></script>
+<style>
+  .pack {
+    cursor: pointer;
+  }
+
+  .pack img, .pack h5 {
+    cursor: pointer;
+  }
+
+  .contenidoExtra {
+    display: none;
+  }
+
+  .contenidoExtra.show {
+    display: block;
+  }
+</style>
+</head>
+
+<body>
+<div id="container"> 
+  <header>
+    <h1> HOLLOW KNIGHT </h1>
+  </header>
+
+   <button class="abrir_menu" id="abrir_menu">&#9776;</button>
+    <nav class="nav_ocultar" id="nav_ocultar">
+        <ul>
+            <li><a href="Home.html"> HOME </a></li>
+            <li><a href="Levels.html"> LEVELS </a></li>
+            <li><a href="Bosses.html"> BOSSES </a></li>
+        </ul>
+    </nav>
+      <br>
+
+  <section id="main">
+    <article>
+      <img src="imagenes/inicio.png" class="portadaArt">
+      <h2 class="titulosArts"> Dive into the adventure </h2>
+      <br>
+      <h3>
+        Hollow Knight is a critically acclaimed action-adventure Metroidvania game developed by Team Cherry. Explore the vast and mysterious kingdom of Hallownest, an underground world full of secrets, strange creatures, and powerful bosses. With a challenging gameplay style, an immersive atmosphere, and intricate level design, Hollow Knight invites you to uncover a hidden story as you fight for survival in an environment filled with magic, traps, and puzzles to solve. Get ready for a unique experience that will test your skill and bravery.
+      </h3>
+
+      <br><br><br><br><br>
+
+      <h4> NEW EXCLUSIVE CONTENT PACKS&nbsp;</h4>  
+      <img src="imagenes/levels_difficulty.png" class="primeraSeccion">
+      <h5> The Dark Forest. Difficulty: High
+        <br>
+        One of the most difficult areas due to obstacles in the form of traps, challenging enemies, and demanding platforms.
+      </h5>
+
+      <div class="seccionesExtras">
+        <div class="pack hidden-dreams">
+          <h5>Hidden Dreams</h5>
+          <img src="imagenes/hidden dreams.png" alt="Hidden Dreams" class="imagenPack">
+          <div class="contenidoExtra">
+            <p>
+Hidden Dreams is the first of the three free content packs planned for Hollow Knight It was announced on June 7th, 2017 and released on August 3rd, 2017. 
+This update added two boss fights with varying difficulty levels. It also brought the first major quality of life changes to the game including a Stag Stationand a fast travel mechanic.
+Boss:
+White Defender is a Boss in Hollow Knight. Bosses are special Enemies that feature their own arena, a large amount of health, and a variety of unique moves and abilities. You will need to perform multiple attacks such as using The Nail and Nail Arts along with the Spells and Abilities in order to defeat them. Some bosses are capable of entering into a state of stagger after landing a number of attacks on them.
+As soon as you encounter a boss, its name will appear on the screen, the music will change into a boss battle theme, and usually,  paths connecting the arena will close or will be blocked leaving you no choice but to face these devastating and unique foes.</p>
+          </div>
+        </div>
+
+        <div class="pack grimm-troupe">
+          <h5>The Grimm Troupe</h5>
+          <img src="imagenes/grimm troupe.png" alt="The Grimm Troupe" class="imagenPack">
+          <div class="contenidoExtra">
+            <p>Lifeblood is a major update to Hollow Knightoriginally planned for the release of the game on Nintendo Switch. It was pushed to public beta testing on March 23rd, 2018, with its name and content revealed on the 24th. Lifeblood was then released on April 20th, 2018. 
+This update enhanced many technical and visual aspects of the game, balanced the gameplay, and added a boss fight with its own theme.
+
+A customizable theme, allowing players to change the background of the title screen.
+Visual Changes to the game such as using charms, locations, and new animations.
+Buffs and Nerfs to Combat, Enemies, and Bosses such as:
+Added two new attacks to the Traitor Lord.
+Hivelings appearance is larger and have increased health.
+A stagger can be performed on The Collector
+Hive Guardians deals two masks of damage to The Knight.
+Upon death, a Volatile Mosskin quickly explodes.</p>
+          </div>
+        </div>
+
+        <div class="pack godmaster">
+          <h5>Godmaster</h5>
+          <img src="imagenes/godmaster.png" alt="Godmaster" class="imagenPack">
+          <div class="contenidoExtra">
+            <p>Godmaster is the last of the three ffree content packs planned for Hollow Knight . It was initially revealed as Gods and Glory along with its content on January 31st, 2018,  but renamed to Godmaster on August 15th, 2018 due to a trademark conflict with the mobile game Gods and Glory published by Wargaming. It was released on August 23rd, 2018.
+This last content pack added an endgame quest and fighting challenges, several characters and secret areas, more Deicate Flower recipients and additional music, along with some remixes.</p>
+          </div>
+        </div>
+      </div>
+
+     
+
+     <footer>
+  <div class="footer-imgs">
+    <img src="imagenes/sticker.png" alt="Izquierda">
+    
+    <a href="https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki" target="_blank">
+      <img src="imagenes/silksong.png" alt="Centro">
+    </a>
+	 
+    <img src="imagenes/shadow.png" alt="Derecha">
+	 <br>
+	  <br>
+	  			 
+  </div>
+  	 
+		 <br>
+		 	  <a href="tel:5575070866" alt="Hipervinculo para llamar al fandom de hollow Knight"> Contáctanos.
+     </a>
+ 
+		 <br>
+		 <br>
+  <p>&copy; 2025 Hollow Knight Fan Page — Designed by Maya Ballesteros, Luz Muñiz, José Antonio Gonzalez y José Rojo</p>
+		 
+</footer>
+    </article>
+  </section>
+</div>
+</body>
+</html>
+<script>
+document.getElementById('abrir_menu').addEventListener('click', function (){
+														  document.querySelector('.nav_ocultar ul').classList.toggle('show');
+														  });
+</script>

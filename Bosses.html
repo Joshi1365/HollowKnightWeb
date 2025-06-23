@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HOLLOW KNIGHT WEB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Itim&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos/estilo.css">
+<script src="scripts/script.js"></script>
+<style>
+  .pack {
+    cursor: pointer;
+  }
+
+  .pack img, .pack h5 {
+    cursor: pointer;
+  }
+
+  .contenidoExtra {
+    display: none;
+  }
+
+  .contenidoExtra.show {
+    display: block;
+  }
+</style>
+</head>
+
+<body>
+<div id="container"> 
+  <header>
+    <h1> BOSSES </h1>
+  </header>
+
+    <button class="abrir_menu" id="abrir_menu">&#9776;</button>
+    <nav class="nav_ocultar" id="nav_ocultar">
+        <ul>
+            <li><a href="Home.html"> HOME </a></li>
+            <li><a href="Levels.html"> LEVELS </a></li>
+            <li><a href="Bosses.html"> BOSSES </a></li>
+        </ul>
+    </nav>
+      <br>
+  <section id="main">
+    <article>
+      <img src="imagenes/boss.png" class="portadaArt">
+      <h2 class="titulosArts"> Unique Bosses </h2>
+      <br>
+      <h3>
+        Bosses are unique enemies in Hollow Knight that typically have higher health or deal more damage than the standard creatures in the same area. The Knight may have to defeat a Boss to access a new area, acquire an item, complete a quest, or simply further the main story of the game.
+
+When the Knight encounters a boss, the name usually appears on-screen, and the music changes into a battle theme.
+
+Counting the variations, there are 47 bosses in the game. 
+      </h3>
+
+      <br><br><br><br><br>
+
+      <h4> Ze´Mer</h4>  
+      <img src="imagenes/OIP.jpeg" class="primeraSeccion">
+      <h5> 
+        <br>
+        Grey Mourner's real name is Ze'mer. She used to be one of the Five Great Knights of Hallownest. She is not originally from Hallownest, being native to an area outside of the kingdom known as "lands serene". It is from this place that she also brought Delicate Flowers.
+The daughter of the Traitor Lord was her lover, but the mantises denied their union, rejecting Grey Mourner due to her being an outsider. Some time after her Mantis lover died, Grey Mourner retreated to her house in the Resting Grounds where she turned to mourning.
+      </h5>
+
+      <div class="seccionesExtras">
+        <div class="pack hidden-dreams">
+          <h5>Dryya</h5>
+          <img src="imagenes/Dryya.png" alt="Hidden Dreams" class="imagenPack">
+          <div class="contenidoExtra">
+            <p>
+Mantis Traitors are enemies in Hollow Knight. Former members of the Mantis Tribe who follow the Traitor Lord, these Mantises were cast out of their village and driven mad by the Infection.
+They do not chase or target the Knight if they are airborne.
+On encounter, bait out its long forward lunge, and attack it from behind before. The Desolate Dive/Descending Dark Spell is very effective against this enemy. Mantis Traitors have a much faster recovery time on their attacks than most enemies, and a short distance should be maintained.</p>
+          </div>
+        </div>
+
+        <div class="pack grimm-troupe">
+          <h5>Isma</h5>
+          <img src="imagenes/Isma.png" alt="The Grimm Troupe" class="imagenPack">
+          <div class="contenidoExtra">
+            <p>The Dream Nail is a sacred weapon and talisman, which can cut the veil that separates the waking world from dreams. It appears to have been made by the Moth Tribe. The Dream Nail allows its user to not only read the thoughts of an entity, or even inanimate objects, but also enter specific sections of the Dream Realm.
+Before the Knight acquires it, the blade dulled over time, making it necessary to fill it with enough Essence to awaken it. Essence are the fragments of light that dreams are composed of.</p>
+          </div>
+        </div>
+
+        
+      </div>
+
+     
+
+     <footer>
+  <div class="footer-imgs">
+    <img src="imagenes/sticker.png" alt="Izquierda">
+    
+    <a href="https://hollowknight.fandom.com/wiki/Hollow_Knight_Wiki" target="_blank">
+      <img src="imagenes/silksong.png" alt="Centro">
+    </a>
+	 
+    <img src="imagenes/shadow.png" alt="Derecha">
+	 <br>
+	  <br>
+	  			 
+  </div>
+  	 
+		 <br>
+		 	  <a href="tel:5575070866" alt="Hipervinculo para llamar al fandom de hollow Knight"> Contáctanos.
+     </a>
+ 
+		 <br>
+		 <br>
+  <p>&copy; 2025 Hollow Knight Fan Page — Designed by Maya Ballesteros, Luz Muñiz, José Antonio Gonzalez y José Rojo</p>
+		 
+</footer>
+    </article>
+  </section>
+</div>
+</body>
+</html>
+<script>
+document.getElementById('abrir_menu').addEventListener('click', function (){
+														  document.querySelector('.nav_ocultar ul').classList.toggle('show');
+														  });
+</script>
